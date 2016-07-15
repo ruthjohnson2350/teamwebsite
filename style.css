@@ -1,24 +1,31 @@
-
+h1{
+  color:grey;
+  font-style:cursive;
+  font-size:50px;
+  text-align:center;
+}
 .a{
   background: #eee;
-  margin: auto;
   font-size: 370%;
   text-align: center;
+  margin-bottom: 0px;
 }
 
-p {
+.t{
   width: 60%;
   margin: auto;
   font-size: 20px;
   text-align:center;
+  color:grey;
+  font-size:40px;
 }
-.b {
+.b{
    text-align: center;
     font-size: 20px;
     margin-top: 0px;
 }
-body {
-  background-image: url("images/logo.jpg");
+body{
+  background-color:#55413E;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -26,12 +33,98 @@ img{
   height:300px;
   width:300px; 
 }
-li{
+.people {
   text-align:center;
   font-size:30px;
-  
 }
-ul{
+.sports {
   text-align:center;
   list-style-type:none;
 }
+
+button:hover{
+  background-color:black;
+  color:white;
+}
+.nav {
+    list-style: none;
+    margin:auto;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.bar {
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color:#67B084;
+}
+.people{
+  color:white;
+  font-style:italic;
+  font-size:35px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.bar:hover {
+  background-color: ;
+}
+.abc{
+  list-style-type:none;
+  
+}
+.strong{
+  list-style-type:none;
+}
+.weak{
+  list-style-type:none;
+}
+.c {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 25px;
+  color: grey;
+}
+.tc{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px grey;
+}
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;}
+	.us{
+	  color:white;
+  font-style:italic;
+  font-size:35px;
+  text-decoration:underline;
+	}
+
+
