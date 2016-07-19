@@ -1,20 +1,22 @@
 h1{
   color:grey;
-  font-style:cursive;
+  font-style: cursive;
   font-size:50px;
   text-align:center;
 }
+img{
+  height:300px;
+  width:200px;
+}
 .a{
-  background: #eee;
+  background: #A01644;
   font-size: 370%;
   text-align: center;
   margin-bottom: 0px;
 }
-
 .t{
   width: 60%;
   margin: auto;
-  font-size: 20px;
   text-align:center;
   color:grey;
   font-size:40px;
@@ -25,7 +27,7 @@ h1{
     margin-top: 0px;
 }
 body{
-  background-color:#55413E;
+  background-color:#23395B;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -41,23 +43,18 @@ img{
   text-align:center;
   list-style-type:none;
 }
-
-button:hover{
-  background-color:black;
-  color:white;
-}
 .nav {
-    list-style: none;
-    margin:auto;
-    padding: 8px;
+    list-style-type:none;
+    margin:0px;
+    padding: 0px;
     overflow: hidden;
 }
-
 .bar {
     float: left;
     display: block;
     padding: 8px;
-    background-color:#67B084;
+    background-color:#A01644;
+    
 }
 .people{
   color:white;
@@ -69,17 +66,12 @@ a {
   color: black;
   font-size: 20px;
 }
-.bar:hover {
-  background-color: ;
-}
-.abc{
-  list-style-type:none;
-  
-}
 .strong{
   list-style-type:none;
+  font-weight:bold;
+  font-style:italic;
 }
-.weak{
+.random{
   list-style-type:none;
 }
 .c {
@@ -93,8 +85,6 @@ a {
     height: 300px;
     box-shadow: 10px 10px grey;
 }
-
-
 .section {
 	clear: both;
 	padding: 0px;
@@ -106,6 +96,7 @@ a {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+	text-align: center;
 }
 .col:first-child { margin-left: 0; }
 
@@ -125,6 +116,27 @@ a {
   font-style:italic;
   font-size:35px;
   text-decoration:underline;
+  list-style-type:none;
+  margin-left: 50px;
 	}
-
-
+	.why{
+	  color:black;
+	  font-size:30px;
+	  font-weight:bolder;
+	  font-style:italic;
+	  }
+.pic {
+  text-align: center;
+  margin-left: 50px;
+}
+.abc{
+  list-style-type:none;
+  font-size:40px;
+  font-weight:bold;
+}
+p {
+  color: gray;
+}
+.span_1_of_3 {
+  text-align: center;
+}
