@@ -150,6 +150,9 @@ a {
 .pic {
   text-align: center;
   margin-left: 50px;
+  .active{
+  font-weight:bolder;
+}
 }
 <<<<<<< HEAD
 =======
